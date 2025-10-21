@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #faf3dd;
-  color: #5e6472;
+  color: #24252b;
   font-family: "Poppins-Light", sans-serif;
   font-size: 15px;
 
@@ -85,7 +85,7 @@ main {
 }
 
 .transition {
-  
+
   padding: 2em;
   background-color: #ffa692;
   margin-top: 2em;
