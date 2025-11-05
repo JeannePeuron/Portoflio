@@ -24,7 +24,7 @@ body {
 header {
   display: flex;
   align-content: center;
-  padding: 2em;
+  padding: 2%;
   background-color: #FFDAB9;
   justify-content: space-between;
   font-size: 25px;
@@ -38,6 +38,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 1em;
+  font-size: 75%;
 }
 
 a:hover {
@@ -79,8 +80,7 @@ main {
 }
 
 .historyPitch {
-  border: 5px solid #FFE5B4;
-  border-radius: 20px;
+
   padding: 3em;
 }
 
@@ -105,11 +105,13 @@ h1 {
 .exercices {
   margin-top: 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1em;
 
 }
+
+
 
 .exercice-1,
 .exercice0,
@@ -122,7 +124,7 @@ h1 {
   padding: 1em;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 
 .exercice-1::before,
@@ -137,40 +139,56 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 229, 180, 200);
+  background-color: white;
   opacity: 0.5;
   border-radius: 10px;
   z-index: -1;
   /* derrière le contenu */
 }
 
+.exercice-1:hover,
+.exercice0:hover,
+.exercice1:hover,
+.exercice2:hover,
+.exercice3:hover,
+.exercice4:hover {
+
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
 h2 {
-  text-decoration: underline;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .description {
-  text-align: justify;
-  padding: 1em;
+
+  padding: 0.5em;
 }
 
 .techno {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .picExercice {
 
-  border: 5px solid #FFDAB9;
-  border-radius: 20px;
+  width: 100%;
   max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+
+
 }
 
+
 .lienGit {
-  padding: 2em;
+  padding: 0.5em;
 }
 
 .date {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 
