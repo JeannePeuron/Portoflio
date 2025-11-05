@@ -35,7 +35,7 @@ Le site se compose de plusieurs sections :
 ## 🚀 Hébergement
 
 Le site est hébergé grâce à **GitHub Pages**  
-🔗 [(https://jeannepeuron.github.io/Portfolio)](https://jeannepeuron.github.io/Portoflio/)
+🔗 https://jeannepeuron.github.io/Portoflio/
 ---
 
 ## 📆 Contexte
