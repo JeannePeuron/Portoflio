@@ -111,6 +111,8 @@ h1 {
 
 }
 
+.exercice-1,
+.exercice0,
 .exercice1,
 .exercice2,
 .exercice3,
@@ -123,6 +125,8 @@ h1 {
   align-items: center;
 }
 
+.exercice-1::before,
+.exercice0::before,
 .exercice1::before,
 .exercice2::before,
 .exercice3::before,
